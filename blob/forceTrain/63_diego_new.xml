@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<annotation>
+	<folder>blob</folder>
+	<filename>63_diego_new</filename>
+	<path>/home/hafez/Desktop/blob/63_diego_new.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>robot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>389</xmin>
+			<ymin>151</ymin>
+			<xmax>413</xmax>
+			<ymax>198</ymax>
+		</bndbox>
+	</object>
+</annotation>
