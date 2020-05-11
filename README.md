@@ -13,9 +13,9 @@ A unified deep-learning network is implemented based on the encoder-decoder appr
 ![](https://github.com/saba6099/Soccer-robot-perception-model/blob/master/Fig%202.png "Architecture")
 
 For image detection, we applied some data augmentation methods like horizontal flip and slight color jitter to introduce variability in the data. Further, the normalization of the dataset is performed with the same values used in the Resnet18 pre-trained network. Furthermore, three heat-maps corresponding to three output channels are generated for robot, goalposts and ball. The figure shows the corresponding heatmaps.
-![heatmaps](https://github.com/saba6099/Soccer-robot-perception-model/blob/master/Fig%201.1.png)
+![heatmaps](https://github.com/saba6099/Soccer-robot-perception-model/blob/master/Output%20Images/Fig%201.1.png)
 
  To test the segmentation head, we visualize the output of the model for several images as shown below.	We also calculate pixel accuracy and IOU for test data.
 
-![](https://github.com/saba6099/Soccer-robot-perception-model/blob/master/Fig%204.1.png)
+![Segmentation](https://github.com/saba6099/Soccer-robot-perception-model/blob/master/Output%20Images/Fig%204.1.png)
 
